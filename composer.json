@@ -1,0 +1,22 @@
+{
+    "name": "upch/yii2-gii",
+    "description": "Plantilla para Gii",
+    "keywords": ["upch", "yii2", "gii", "code generator"],
+    "type": "upch-yii2-extension",
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-gii": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Nolberto Vilchez Moreno",
+            "email": "jnolbertovm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "upch\\gii\\": ""
+        }
+    }
+}
