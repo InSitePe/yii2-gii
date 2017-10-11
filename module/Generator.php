@@ -1,10 +1,8 @@
 <?php
 
-namespace upch\gii\generators\module;
+namespace upch\gii\module;
 
-use yii\gii\generators\module\Generator;
-
-class Generator extends Generator {
+class Generator extends \yii\gii\generators\module\Generator {
 
     public $template = 'upch';
 
