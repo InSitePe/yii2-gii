@@ -7,9 +7,9 @@ use Composer\Script\Event;
 class Scripts {
 
     public static function ReqPaths(Event $event) {
-        $webDir     = __DIR__ . "../../dist/web/assets";
-        $assetsDir  = __DIR__ . "../../dist/web/assets";
-        $runtimeDir = __DIR__ . "../../dist/runtime";
+        $webDir     = __DIR__ . "../../../web";
+        $assetsDir  = __DIR__ . "../../../web/assets";
+        $runtimeDir = __DIR__ . "../../../runtime";
 
         $event->getIO()->write("Show me after INSTALL/UPDATE command");
         $event->getIO()->write($webDir);
