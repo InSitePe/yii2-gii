@@ -3,7 +3,7 @@
     "description": "Plantilla para Gii",
     "keywords": ["insite", "yii2", "gii", "code generator"],
     "type": "library",
-    "licence": "LGPL",
+    "license": "LGPL",
     "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "^2.0",
