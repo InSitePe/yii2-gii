@@ -1,8 +1,9 @@
 {
-    "name": "upch/yii2-gii",
+    "name": "insite/yii2-gii",
     "description": "Plantilla para Gii",
-    "keywords": ["upch", "yii2", "gii", "code generator"],
-    "type": "upch-yii2-extension",
+    "keywords": ["insite", "yii2", "gii", "code generator"],
+    "type": "library",
+    "licence": "LGPL",
     "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "^2.0",
@@ -16,7 +17,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "upch\\gii\\": ""
+            "insite\\gii\\": ""
+        }
+    },
+    "extra":{
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
