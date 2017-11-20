@@ -1,17 +1,17 @@
 <?php
 
-namespace upch\gii\module;
+namespace insite\gii\module;
 
 class Generator extends \yii\gii\generators\module\Generator {
 
-    public $template = 'upch';
+    public $template = 'insite';
 
     public function getName() {
-        return 'Module UPCH Generator';
+        return 'Module Insite.pe Generator';
     }
 
     public function getDescription() {
-        return 'Generador de Modulos para UPCH';
+        return 'Generador de Modulos para Insite.pe';
     }
 
 }
