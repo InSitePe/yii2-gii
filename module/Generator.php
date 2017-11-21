@@ -4,8 +4,6 @@ namespace insite\gii\module;
 
 class Generator extends \yii\gii\generators\module\Generator {
 
-    public $template = 'insite';
-
     public function getName() {
         return 'Module Insite.pe Generator';
     }

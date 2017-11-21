@@ -14,7 +14,7 @@ $className = substr($className, $pos + 1);
 echo "<?php\n";
 ?>
 
-namespace <?= $ns ?>;
+namespace <?= str_replace(["backend","src"], "app",$ns) ?>;
 
 /**
  * <?= $generator->moduleID ?> module definition class
@@ -24,7 +24,7 @@ class <?= $className ?> extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = '<?= $generator->getControllerNamespace() ?>';
+    public $controllerNamespace = '<?= str_replace(["backend","src"], "app", $generator->getControllerNamespace()) ?>';
 
     /**
      * @inheritdoc

@@ -9,7 +9,7 @@
 echo "<?php\n";
 ?>
 
-namespace <?= $generator->getControllerNamespace() ?>;
+namespace <?= str_replace(["backend","src"], "app", $generator->getControllerNamespace()) ?>;
 
 use yii\web\Controller;
 
